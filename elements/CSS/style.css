@@ -4,10 +4,29 @@ body{
     box-sizing: border-box;
     
 }
+
+/* reusable css */
+.button-container{
+    padding: 10px 30px;
+    border: 1px solid tomato;
+}
+
+/* reusable css */
+
+
+
+
+
+
+
 .head-section{
     background-image: url(/elements/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
     height: 75vh;
+}
+.head-section__text-conatainer{
+    text-align: center;
 }
