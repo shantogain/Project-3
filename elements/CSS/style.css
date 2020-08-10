@@ -6,21 +6,39 @@ body{
 }
 
 /* reusable css */
-.button-container{
+.button{
     padding: 10px 30px;
-    border: 1px solid tomato;
+    transition: all ease-in-out .3s;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
 }
+.button:hover{
+    text-decoration: none;
+}
+
+.button-transparent{
+    border: 1px solid grey;
+    background: transparent;
+    color: #000;
+}
+.button-transparent:hover {
+    background: #fff;
+    color: #000;
+    border: none;
+}
+
+.text-red{
+    color: red;
+}
+
 
 /* reusable css */
 
-
-
-
-
-
-
 .head-section{
-    background-image: url(/elements/images/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/elements/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
