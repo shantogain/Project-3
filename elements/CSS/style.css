@@ -19,9 +19,9 @@ body{
 }
 
 .button-transparent{
-    border: 1px solid grey;
+    border: 1px solid gray;
+    color: #fff;
     background: transparent;
-    color: #000;
 }
 .button-transparent:hover {
     background: #fff;
@@ -45,6 +45,6 @@ body{
     background-position: center center;
     height: 75vh;
 }
-.head-section__text-conatainer{
-    text-align: center;
+.head-section__inner-container{
+    height: 75vh;
 }
