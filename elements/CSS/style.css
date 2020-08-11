@@ -2,10 +2,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
-/* reusable css */
+
+/*!-----------------------REUSABLE CSS-------------------------*/
 .button{
     padding: 10px 30px;
     transition: all ease-in-out .3s;
@@ -28,18 +28,17 @@ body{
     color: #000;
     border: none;
 }
-
 .text-red{
     color: red;
 }
+/*!-----------------------REUSABLE CSS-------------------------*/
 
 
-/* reusable css */
-
+/* !-------------------HEAD SECTION-------------------------- */
 .head-section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/elements/images/background.jpg);
-    background-size: cover;
+background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -48,3 +47,5 @@ body{
 .head-section__inner-container{
     height: 75vh;
 }
+
+/* !-------------------HEAD SECTION-------------------------- */
