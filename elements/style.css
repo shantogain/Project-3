@@ -3,8 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
-
 /*!-----------------------REUSABLE CSS-------------------------*/
 .button{
     padding: 10px 30px;
@@ -28,16 +26,21 @@ body{
     color: #000;
     border: none;
 }
+
+
 .text-red{
     color: red;
 }
+
 /*!-----------------------REUSABLE CSS-------------------------*/
+
+
 
 
 /* !-------------------HEAD SECTION-------------------------- */
 .head-section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url();
+    url(/elements/images/background.jpg);
 background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,3 +52,8 @@ background-size: cover;
 }
 
 /* !-------------------HEAD SECTION-------------------------- */
+
+
+
+
+
