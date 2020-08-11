@@ -5,7 +5,6 @@ body{
 }
 
 
-/*!-----------------------REUSABLE CSS-------------------------*/
 .button{
     padding: 10px 30px;
     transition: all ease-in-out .3s;
@@ -31,10 +30,10 @@ body{
 .text-red{
     color: red;
 }
-/*!-----------------------REUSABLE CSS-------------------------*/
 
 
-/* !-------------------HEAD SECTION-------------------------- */
+
+
 .head-section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/elements/images/background.jpg);
@@ -48,4 +47,3 @@ body{
     height: 75vh;
 }
 
-/* !-------------------HEAD SECTION-------------------------- */
