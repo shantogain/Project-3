@@ -38,7 +38,7 @@ body{
 .head-section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/elements/images/background.jpg);
-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
